@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
   text-decoration: none;
 }
 .container {
@@ -31,7 +32,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  list-style: none;
   width: 700px;
 }
 .header__content a {
@@ -57,3 +57,13 @@
 .content__info-2 h2 {
   text-align: center;
 }
+.contacts {
+  background-color: gold;
+}
+.contacts-1 h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.img {
+  display: flex;
+  justify-content: space-between;
