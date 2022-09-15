@@ -3,10 +3,59 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
 }
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.header {
+  background-color: gold;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+
+.header__content h1 {
+  display: flex;
+  align-items: center;
+}
+
+.header__content img {
+  border-radius: 50%;
+}
+.header__content ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 700px;
+}
+.header__content a {
+  font-size: large;
+  color: black;
+}
+
+.content {
+  background-image: url("https://e0.365dm.com/16/10/2048x1152/skysports-real-madrid-stadium_3806337.jpg");
+}
+
+.main__content {
+  color: wheat;
+  padding-top: 25px;
+}
+
+.content__info {
+  display: flex;
+}
+.content__info-1 h2 {
+  text-align: center;
+}
+.content__info-2 h2 {
+  text-align: center;
 }
 .contacts {
   background-color: gold;
@@ -18,4 +67,3 @@
 .img {
   display: flex;
   justify-content: space-between;
-}
